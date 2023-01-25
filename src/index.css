@@ -1,0 +1,43 @@
+:root {
+  --dark1: #191A21;
+  --dark2: #21222C;
+  --dark3: #282A36;
+  --dark4: #343746;
+
+  --blue1: #003461;
+  --blue2: #0083CA;
+  --blue3: #00AFAD;
+
+  --orange1: #F27405;
+  --orange2: #F29C04;
+
+  --white1: #FFFFFF;
+  --white2: #E3E7EA;
+
+  --contentMaxWidth: 64.5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  background-color: var(--dark1);
+  color: var(--white2);
+  font-family: 'Segoe UI', sans-serif;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100vw;
+  gap: 2rem;
+}
+
+.content {
+  width: 100%;
+  max-width: var(--contentMaxWidth);
+  margin: 0 auto;
+  height: auto;
+  flex: 1;
+}

@@ -1,0 +1,39 @@
+.header {
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.headerContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: var(--contentMaxWidth);
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 2.5rem;
+}
+
+.button {
+  font-size: 1rem;
+  background-color: var(--blue2);
+  color: var(--white1);
+  padding: .5rem 1rem;
+  min-width: 10rem;
+  min-height: 3rem;
+  border-radius: .4rem;
+  cursor: pointer;
+  border: none;
+}
+
+.button:hover {
+  box-shadow: 0 0 1rem var(--blue2);
+}
+
+.button:active {
+  transform: translateY(2px);
+}
